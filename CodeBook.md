@@ -1,11 +1,11 @@
-##Study Design 
+###Study Design 
 
-#This section covers how data is collected.
+This section covers how data is collected.
 
-#This course project is to prepare a set of data for analysis.  This set of data is collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
-#Pls refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones for details 
+This course project is to prepare a set of data for analysis.  This set of data is collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+Pls refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones for details 
 
-##Code Book
+###Code Book
 activity				18
 						Activity that subject was engaged in while reading was taken
 						WALKING
