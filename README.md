@@ -1,6 +1,6 @@
 #Readme
 
-Run the "run_analysis.R" script.
+Run the **"run_analysis.R"** script.
 This script will perform the following:
 * combine the data from both the test and train sets
 * assign names for each of the columns based on the features data set
@@ -13,8 +13,8 @@ This script will perform the following:
 
 ### Instructions
 1. Run the script by doing the following:-  
-	source("run_analysis.R")  
-	runanalysis()  
+	**source("run_analysis.R")  **
+	**runanalysis()** 
 	
 2. Once the function completes, go to the working directory and open the resultant txt file named **"tidydata.txt"**  
 
