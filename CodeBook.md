@@ -6,14 +6,16 @@ This course project is to prepare a set of data for analysis.  This set of data 
 Pls refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones for details 
 
 ###Code Book
-activity				18
-						Activity that subject was engaged in while reading was taken
-						WALKING
-						WALKING_UPSTAIRS
-						WALKING_DOWNSTAIRS
-						SITTING
-						STANDING
-						LAYING
+
+| Column Name| Range | Description                                                                                                            |
+| -----------| ------| -----------------------------------------------------------------------------------------------------------------------|
+| activity   | 	18   |	Activity that subject was engaged in while reading was taken	                                                      |	
+|						WALKING
+|						WALKING_UPSTAIRS
+|						WALKING_DOWNSTAIRS
+|						SITTING
+|						STANDING
+|						LAYING
 subject					1
 						Test subject (volunteers) that underwent the test.  There are a total of 30 subjects
 						Value range from 1 to 30
@@ -53,29 +55,52 @@ tbodyaccjerkstdy		-1 to 1
 						Standard deviation of the time domain body acceleration jerk signal in the Y direction for the activity and subject
 tbodyaccjerkstdz		-1 to 1
 						Standard deviation of the time domain body acceleration jerk signal in the Z direction for the activity and subject
-tbodygyromeanx
-tbodygyromeany
-tbodygyromeanz
-tbodygyrostdx
-tbodygyrostdy
-tbodygyrostdz
-tbodygyrojerkmeanx
-tbodygyrojerkmeany
-tbodygyrojerkmeanz
-tbodygyrojerkstdx
-tbodygyrojerkstdy
-tbodygyrojerkstdz
-tbodyaccmagmean
-tbodyaccmagstd
-tgravityaccmagmean
-tgravityaccmagstd
-tbodyaccjerkmagmean
-tbodyaccjerkmagstd
-tbodygyromagmean
-tbodygyromagstd
-tbodygyrojerkmagmean
-tbodygyrojerkmagstd
-fbodyaccmeanx
+tbodygyromeanx			-1 to 1
+						Mean of the time domain body gyroscope signal in the X direction for the activity and subject
+tbodygyromeany			-1 to 1
+						Mean of the time domain body gyroscope signal in the Y direction for the activity and subject
+tbodygyromeanz			-1 to 1
+						Mean of the time domain body gyroscope signal in the Z direction for the activity and subject
+tbodygyrostdx			-1 to 1
+						Standard deviation of the time domain body gyroscope signal in the X direction for the activity and subject
+tbodygyrostdy			-1 to 1
+						Standard deviation of the time domain body gyroscope signal in the Y direction for the activity and subject
+tbodygyrostdz			-1 to 1
+						Standard deviation of the time domain body gyroscope signal in the Z direction for the activity and subject
+tbodygyrojerkmeanx		-1 to 1
+						Mean of the time domain body gyroscope jerk signal in the X direction for the activity and subject
+tbodygyrojerkmeany		-1 to 1
+						Mean of the time domain body gyroscope jerk signal in the Y direction for the activity and subject
+tbodygyrojerkmeanz		-1 to 1
+						Mean of the time domain body gyroscope jerk signal in the Z direction for the activity and subject
+tbodygyrojerkstdx		-1 to 1
+						Standard deviation of the time domain body gyroscope jerk signal in the X direction for the activity and subject
+tbodygyrojerkstdy		-1 to 1
+						Standard deviation of the time domain body gyroscope jerk signal in the Y direction for the activity and subject
+tbodygyrojerkstdz		-1 to 1
+						Standard deviation of the time domain body gyroscope jerk signal in the Z direction for the activity and subject
+tbodyaccmagmean			-1 to 1
+						Mean of the magnitude of the time domain body acceleration signal for the activity and subject
+tbodyaccmagstd			-1 to 1
+						Standard deviation of the magnitude of the time domain body acceleration signal for the activity and subject
+tgravityaccmagmean		-1 to 1
+						Mean of the magnitude of the time domain body acceleration gravity signal for the activity and subject
+tgravityaccmagstd		-1 to 1
+						Standard deviation of the magnitude of the time domain body acceleration signal for the activity and subject
+tbodyaccjerkmagmean		-1 to 1
+						Mean of the magnitude of the time domain body acceleration jerk signal for the activity and subject
+tbodyaccjerkmagstd		-1 to 1
+						Standard deviation of the magnitude of the time domain body acceleration jerk signal for the activity and subject
+tbodygyromagmean		-1 to 1
+						Mean of the magnitude of the time domain body acceleration gyroscope signal for the activity and subject
+tbodygyromagstd			-1 to 1
+						Standard deviation of the magnitude of the time domain body acceleration gyroscope signal for the activity and subject
+tbodygyrojerkmagmean	-1 to 1
+						Mean of the magnitude of the time domain body gyroscope jerk signal for the activity and subject
+tbodygyrojerkmagstd		-1 to 1
+						Standard deviation of the magnitude of the time domain body gyroscope jerk signal for the activity and subject
+fbodyaccmeanx			-1 to 1
+						Standard deviation of the magnitude of the time domain body gyroscope jerk signal for the activity and subject
 fbodyaccmeany
 fbodyaccmeanz
 fbodyaccstdx
