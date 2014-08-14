@@ -1,15 +1,29 @@
+###Study Design 
 
+This section covers how data is collected.
+
+This course project is to prepare a set of data for analysis.  This set of data is collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+Pls refer to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones for details 
+
+###Code Book
+As specified in the course lectures, the variable names should be
+* all lower case when possible
+* not duplicated
+* descriptive
+* not have underscores, spaces or dots
+
+Therefore, the variable names in this data set strives to achieve the above specifications by keeping all variable names in lowercase without any underscores or spaces or dots
 | Column Name| Range | Description                                                                                                            |
 | -----------| ------| -----------------------------------------------------------------------------------------------------------------------|
 | activity   | 	18   |	Activity that subject was engaged in while reading was taken	                                                      |	
-|						WALKING
-|						WALKING_UPSTAIRS
-|						WALKING_DOWNSTAIRS
-|						SITTING
-|						STANDING
-|						LAYING
+|			 |		 |	WALKING
+|			 |		 |	WALKING_UPSTAIRS
+|			 |		 |	WALKING_DOWNSTAIRS
+|			 |		 |	SITTING
+|			 |		 |	STANDING
+|			 |		 |	LAYING
 |subject	|	1	 |	Test subject (volunteers) that underwent the test.  There are a total of 30 subjects |
-|						Value range from 1 to 30	|
+|			 |		 |	Value range from 1 to 30	|
 |tbodyaccmeanx|-1 to 1 |Mean of the time domain body acceleration signal in the X direction for the activity and subject|
 |tbodyaccmeany|-1 to 1 |Mean of the time domain body acceleration signal in the Y direction for the activity and subject|
 |tbodyaccmeanz|-1 to 1 |Mean of the time domain body acceleration signal in the Z direction for the activity and subject|
