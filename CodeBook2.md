@@ -13,6 +13,8 @@ As specified in the course lectures, the variable names should be
 * not have underscores, spaces or dots
 
 Therefore, the variable names in this data set strives to achieve the above specifications by keeping all variable names in lowercase without any underscores or spaces or dots
+
+
 | Column Name| Range | Description                                                                                                            |
 | -----------| ------| -----------------------------------------------------------------------------------------------------------------------|
 | activity   | 	18   |	Activity that subject was engaged in while reading was taken	                                                      |	
