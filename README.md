@@ -9,6 +9,7 @@ This script will perform the following:
 * Calculate the mean for each column group by the activity and subject
 * Replace the activity column (based on ID) by its corresponding activity description
 * Write the data into a txt file
+
 ---
 
 ### Instructions
