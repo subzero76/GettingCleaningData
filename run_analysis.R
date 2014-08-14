@@ -58,13 +58,9 @@ runanalysis <- function () {
 	## Remove the activityid column
 	cdata3 <-subset(cdata3 ,select=-(activityid))
 	file<-tempfile()
-	write.table(cdata3 ,"./tidydata.csv",sep=",",row.names=FALSE,col.names=TRUE,quote=FALSE)
-	print(head(cdata3,n=10))
+	write.table(cdata3 ,"./tidydata.txt",sep=",",row.names=FALSE,col.names=TRUE,quote=FALSE)
+
 		
 }
-
-
-
-
 
 
